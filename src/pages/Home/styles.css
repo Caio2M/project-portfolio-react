@@ -1,0 +1,209 @@
+.page {
+  background-color: #22212c;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-family: "Merriweather Sans";
+}
+
+.title h2 {
+  color: #837e9f;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.container-personal-info {
+  margin: 40px 30px 40px 40px;
+}
+
+.container-personal-info a {
+  text-decoration: none;
+  color: #837e9f;
+}
+
+.container-personal-info p {
+  color: #837e9f;
+}
+
+.box {
+  max-width: 350px;
+  min-width: 350px;
+  background: #302f3d;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.div-profile {
+  max-width: 348px;
+  min-width: 230px;
+  text-align: center;
+}
+
+.div-profile img {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 30px;
+  border: 2px solid #00ff00;
+  border-radius: 50%;
+}
+
+.div-profile h2,
+p {
+  margin-bottom: 10px;
+}
+
+.div-profile h2 {
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #837e9f;
+  font-weight: bold;
+}
+
+.div-profile p {
+  width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.space {
+  margin-bottom: 10px;
+}
+
+.div-links {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-links div {
+  width: 100%;
+}
+
+.div-links p {
+  position: relative;
+  top: -25%;
+  display: inline;
+  width: 100%;
+  padding-left: 12px;
+}
+
+.div-links a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.div-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.div-technologies p {
+  font-size: 10px;
+  color: black;
+  line-height: 14px;
+  font-weight: bold;
+  background: #cb92b1;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px 0.5em;
+  height: 24px;
+  text-align: center;
+  min-width: 86px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div-experiences p {
+  font-family: "Merriweather Sans";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #837e9f;
+  width: 70%;
+  margin-left: 40px;
+}
+
+.div-experiences h4 {
+  font-family: "Merriweather Sans";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #837e9f;
+  width: 70%;
+  display: list-item;
+  margin-left: 40px;
+}
+
+.div-education p {
+  font-family: "Merriweather Sans";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+
+  width: 70%;
+  margin-left: 40px;
+}
+
+.div-education h4 {
+  font-family: "Merriweather Sans";
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #837e9f;
+  width: 70%;
+  display: list-item;
+  margin-left: 40px;
+}
+
+/*================= REPOSITORIOS =============*/
+
+.container-repositories {
+  max-height: 86px;
+  width: 100%;
+}
+
+.container-repositories a {
+  text-decoration: none;
+  color: #837e9f;
+}
+
+.repositoryBox {
+  display: flex;
+  justify-content: space-between;
+  background: #302f3d;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
+
+.container-repositories h2,
+.container-repositories .linkMainTitle {
+  display: inline;
+  line-height: 86px;
+  margin: 0;
+}
+
+.container-repositories {
+  margin: 40px 40px 30px 30px;
+}
+
+.container-projects {
+  color: #837e9f;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 30px;
+  justify-content: space-between;
+}

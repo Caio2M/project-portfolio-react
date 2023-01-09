@@ -1,0 +1,67 @@
+.repository {
+  padding: 30px;
+  background: #302f3d;
+  border-radius: 20px;
+  width: 100%;
+  min-width: 250px;
+}
+
+.repository p {
+  margin-bottom: 30px;
+}
+
+.repository h3 {
+  font-size: 15px;
+  line-height: 16px;
+  text-decoration: none;
+  margin-left: 10px;
+  float: left;
+}
+
+.repository img {
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.repository p {
+  font-weight: 300;
+  color: #837e9f;
+  font-size: 13px;
+  clear: both;
+  margin-top: 30px;
+  height: 2em;
+}
+
+.star span {
+  display: list-item;
+  list-style-image: url("../../src/img/starstar.png");
+  list-style-position: inside;
+  line-height: 17px;
+  font-size: 17px;
+  float: left;
+}
+
+.branch span {
+  display: list-item;
+  list-style-image: url("../../src/img/share.png");
+  list-style-position: inside;
+  line-height: 17px;
+  font-size: 17px;
+  float: left;
+  margin-left: 20px;
+}
+
+.star-branch {
+  gap: 10px;
+  width: 40%;
+  display: flex;
+}
+
+.language {
+  display: list-item;
+  list-style-image: url("../../src/img/listImage.png");
+  float: right;
+  line-height: 17px;
+  font-size: 15px;
+}
